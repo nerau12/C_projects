@@ -34,14 +34,10 @@ int print_menu(){
     }
 
     return menu_choice;
-    
 }
 
 float get_gallons_bought(){
-    float gallons;
-
-    gallons = rand() % MAX_GAS;
-
+    float gallons = rand() % MAX_GAS;
     return gallons;
 }
 
